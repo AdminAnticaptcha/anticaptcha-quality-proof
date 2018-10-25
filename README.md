@@ -4,7 +4,7 @@ Simple PHP script to verify that Anti-Captcha.com Recaptcha solving API is reall
 
 You will need Linux machine with PHP installed. Script will not work in Windows.
 
-You will need to register domain at https://www.google.com/recaptcha/admin .
+Register random domain at https://www.google.com/recaptcha/admin . Note that you don't have to be the owner of this domain. It can be microsoft.com, trumpsucks.org, whatever.com.
 Grab site key, secret key and your Anti-Captcha API access key. Run the script in terminal and enter these values when prompted.
 
 ```
