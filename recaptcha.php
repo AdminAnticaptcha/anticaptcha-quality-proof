@@ -41,7 +41,7 @@ if ($threads == 0) {
 //we'll store thread results in file
 file_put_contents("results.txt", "");
 
-$checksPerThread = $checks/$maxThreads;
+$checksPerThread = $checks/$threads;
 
 $childPids = [];
 
